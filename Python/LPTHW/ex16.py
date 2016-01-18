@@ -24,7 +24,7 @@ line3 = raw_input("line 3: ")
 
 print("I'm going to write these to the file.")
 #writes in file
-target.write(line1 + "/n" + line2 + "/n" + line3 + "/n")
+target.write("%s\n%s\n%s\n" % (line1, line2, line3))
 #closes file
 print("And finally, we close it.")
 target.close()
