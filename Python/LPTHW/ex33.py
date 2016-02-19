@@ -1,6 +1,6 @@
 i = 0
 numbers = []
-stopnum = raw_input('> ')
+stopnum = int(raw_input('> '))
 while i < stopnum:
 	print "At the top of i is %d" % i
 	numbers.append(i)
